@@ -1,6 +1,8 @@
 # Tutoriel GitLab ![Work in progress](http://www.repostatus.org/badges/latest/wip.svg)
 
-Ce guide collaboratif à l'ambition de vous donner les bases essentielles pour bien démarrer sur GitLab.
+Ce guide collaboratif à l'ambition de vous donner les bases essentielles pour bien démarrer sur [GitLab](http://gitlab.org).
+
+[GitLab](http://gitlab.org) peut être utilisé en tant que [SAAS](https://fr.wikipedia.org/wiki/Logiciel_en_tant_que_service), ou être installé sur votre propre instance privée.
 
 > NB: les traductions FR des interfaces ne sont pas toujours complètes.
 
@@ -8,14 +10,14 @@ Ce guide collaboratif à l'ambition de vous donner les bases essentielles pour b
 
  - [Qu'est-ce que c'est, à quoi ça sert ?](#quest-ce-que-cest-%C3%A0-quoi-%C3%A7a-sert-)
  - [Comment fonctionne GIT](#comment-fonctionne-git)
- - [Sécurité](#gitlab-securite)
- - [Inscription GitLab](#gitlab-inscription)
- - [Créer un projet](#gitlab-cr%C3%A9er-un-projet)
+ - [Sécurité](#sécurité)
+ - [Inscription GitLab](#inscription)
+ - [Créer un projet](#créer-un-projet)
  - [Fourcher (forker) un projet](#fourcher-forker-un-projet)
- - [Gestion des fichiers](#gitlab-gestion-des-fichiers)
+ - [Gestion des fichiers](#gestion-des-fichiers)
  - [Demandes de fusion](#demandes-de-fusion)
  - [Le format Markdown](#am%C3%A9liorer-ses-textes-avec-le-format-markdown)
- - [Gestion des issues](#gitlab-les-issues)
+ - [Gestion des issues](#les-issues)
  - [FAQ](#faq)
  - [Liens](#liens)
  - [Glossaire](#glossaire)
@@ -49,13 +51,13 @@ Et vous pouvez revenir en arrière à tout moment, ou créer des "branches" qui 
 
 Concrètement, à la racine de votre projet, git maintient un dossier `.git` qui contient les indexes et le fichier de config.
 
-## GitLab : Sécurité
+## Sécurité
 
 Les autorisations d'accès aux projets sont gérées par les propriétaires des projets dans GitLab.
 
 Vous ne devez pas mettre de mot passe ou donnée sensible dans les projets.
 
-## GitLab : Inscription
+## Inscription
 
 Vous êtes autonome pour créer un compte sur la plateforme.
 
@@ -67,7 +69,7 @@ Une fois votre compte créé, vous pouvez créer des projets comme bon vous semb
 
 Le nommage des projets par groupe doivent respecter des conventions de nommage.
 
-## GitLab : Créer un projet
+## Créer un projet
 
 Créer un projet, c'est créer un espace public ou privé ou vous pouvez versionner des fichiers et collaborer.
 
@@ -150,7 +152,7 @@ Vous pouvez `fourcher` un projet depuis la page web du projet, c.a.d. le copier,
 
 Une fois fourché, vous êtes en possession d'une copie du projet sur laquelle vous pouvez travailler indépendamment puis éventuellement soumettre des contributions utiles au projet d'origine (`upstream`)
 
-## GitLab : Gestion des fichiers
+## Gestion des fichiers
 
 Les fichiers d'un repository peuvent être modifiés de multiples façons :
 
@@ -239,7 +241,7 @@ Quelques outils pratiques :
  - Helper pour générer des tableaux : https://www.tablesgenerator.com/markdown_tables
  - Format `mermaid` pour générer des schémas : https://gitlab.com/gitlab-org/gitlab-ce/issues/3711
 
-## GitLab : Les issues
+## Les issues
 
 Le système d'issues de GitLab est avancé et puissant !
 
