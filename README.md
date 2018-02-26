@@ -26,7 +26,7 @@ Ce guide collaboratif à l'ambition de vous donner les bases essentielles pour b
 
 **GIT** est décentralisé, et permet à de multiples personnes de travailler ensemble sur le même projet, puis d'intégrer harmonieusement les travaux de chacun.
 
-C'est un outil bas niveau (ligne de commande), mais on peut utiliser via des logiciels comme GitKraken par exemple.
+C'est un outil bas niveau (ligne de commande), mais on peut l'utiliser via des logiciels comme GitKraken par exemple.
 
 Des sites webs comme GitHub ou GitLab (qui sont des "forges logicielles"), ajoutent à GIT des fonctionnalités telles que la gestion des "tickets" (issues), les releases, la documentation, l'intégration continue ou encore le déploiement automatisé, qui facilitent la collaboration, et en font une composante centrale pour atteindre l'agilité et les pratiques **DevOps**.
 
@@ -53,9 +53,7 @@ Concrètement, à la racine de votre projet, git maintient un dossier `.git` qui
 
 Les autorisations d'accès aux projets sont gérées par les propriétaires des projets dans GitLab.
 
-la plateforme GitLab des ministères sociaux est accessible uniquement en zone intranet.
-
-Vous ne devez pas mettre de mot passe ou données sensible dans les projets.
+Vous ne devez pas mettre de mot passe ou donnée sensible dans les projets.
 
 ## GitLab : Inscription
 
