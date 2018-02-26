@@ -125,7 +125,7 @@ Parmi les options réglables, vous pouvez :
 
 Cette page permet d'avoir toutes les informations sur le projet.
 
-Le fichier `README.md` est automatiqueemnt affiché et doit permettre de comprendre les tenants et les aboutissements du projet, ainsi que les moyens pour installer le projet ou collaborer.
+Le fichier `README.md` est automatiqueemnt affiché et doit permettre de comprendre les tenants et les aboutissants du projet, ainsi que les moyens pour installer le projet ou collaborer.
 
 Si le projet vous intéresse, mettez-le en favori pour le retrouver facilement sur la page d'accueil ou dans le menu"
 
@@ -185,7 +185,7 @@ ex: "doc: mise à jour des informations d'installation"
 
 On peut également travailler sur les fichiers directement sur son ordinateur, sans passer par l'interface GitLab.
 
-Pour cela on peut utiliser l'un des nombreux clients GIT du marché. Le plus "simple" est "GitHub for desktop"
+Pour cela on peut utiliser l'un des nombreux clients GIT du marché. Le plus "simple" est [GitHub for desktop](https://desktop.github.com/)
 
  - On va d'abord cloner le projet (copier en local).
  - Puis faire les modifications en local
@@ -196,9 +196,18 @@ Pour cela on peut utiliser l'un des nombreux clients GIT du marché. Le plus "si
 
 > La ligne de commande GIT est cryptique, mais il y a peu de commandes à connaitre; les connaitre vous permettra de mieux comprendre le fonctionnement de GIT pour mieux en tirer profit.
 
+> 💡 Apprenez le CLI en 5 minutes avec [try.github.io](http://try.github.io)
+
 ### Clé SSH
 
-Pour utiliser le CLI, le mieux est d'utiliser une clé SSH que vous aller inscire sur votre compte GitLab.
+Pour utiliser le CLI, le plus simple est d'utiliser une clé SSH que vous associer à votre compte GitLab. Ceci permet de ne pas avoir à utiliser les mots de pass via le CLI.
+
+ - générez la clé sur votre poste
+   - windows : avec [putty](https://support.google.com/youtube/answer/3071034?hl=fr)
+   - mac/linux : `ssh-keygen -t ecdsa -b 256`
+     
+ - ajoutez la clé **publique** dans votre profil GitLab
+
 
 ### Clone/Modif de repos
 
@@ -208,8 +217,6 @@ Les mêmes opération via le CLI (ligne de commandes) :
  - Ajouter les fichiers pour le commit `git add question-1.md question-2.md`
  - Sauvegarder les modifications : `git commit -m 'ajout de questions'`
  - Envoyer sur le serveur GitLab : `git push`
-
-➡️ [try.github.com](https://try.github.com) vous permet de vous familiariser avec la ligne de commande.
 
 ## Demandes de fusion
 
