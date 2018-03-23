@@ -338,7 +338,7 @@ cf [documentation officielle](https://docs.gitlab.com/ee/user/permissions.html#p
  - **devops** : mouvement visant à l'alignement de l'ensemble des équipes du système d'information sur un objectif commun, à commencer par les équipes de dev ou dev engineers chargés de faire évoluer le système d'information et les ops ou ops engineers responsables des infrastructures.
  - **commit** :  Fait d'enregistrer dans un outil de gestion de versions une nouvelle version d'un ensemble de fichiers.
  - **release** : version fixée d'une réalisation
- - **issue** : Un ticket qui permet de définir une feature ou une bug.
+ - **issue** : Un ticket qui permet de définir une feature ou un bug.
  - **repository** : Un projet au sens GIT
  - **origin** : GIT étant décentralisé, `origin` est le nom conventionnel du serveur par défaut
  - **upstream** : Lorsque l'on copie (fork) un projet, `upstream` représente le repository d'origine par convention
