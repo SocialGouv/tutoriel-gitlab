@@ -18,6 +18,7 @@ Ce guide collaboratif à l'ambition de vous donner les bases essentielles pour b
  - [Demandes de fusion](#demandes-de-fusion)
  - [Le format Markdown](#am%C3%A9liorer-ses-textes-avec-le-format-markdown)
  - [Gestion des issues](#les-issues)
+ - [GitLab : Mirroring avec GitHub](#gitlab--mirroring-avec-github)
  - [FAQ](#faq)
  - [Liens](#liens)
  - [Glossaire](#glossaire)
@@ -315,6 +316,7 @@ cf [documentation officielle](https://docs.gitlab.com/ee/user/permissions.html#p
 
 ## GitLab : Mirroring avec GitHub
 Gitlab offre la synchronisation en PUSH vers Github à tous les utilisateurs tandis que la synchronisation en GET est réservée aux comptes Gitlab PREMIUM (payant).
+
 1.Clonage d'un repo Github dans Gitlab
 Gitlab propose de créer un repo en créant un clône d'un repo pré-existant sur un autre service via "Importer un projet". Il suffit de fournir l'URL du repo Github.
 
