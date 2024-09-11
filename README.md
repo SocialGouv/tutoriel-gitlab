@@ -317,7 +317,7 @@ cf [documentation officielle](https://docs.gitlab.com/ee/user/permissions.html#p
 ## GitLab : Mirroring avec GitHub
 Gitlab offre la synchronisation en PUSH vers Github à tous les utilisateurs tandis que la synchronisation en GET est réservée aux comptes Gitlab PREMIUM (payant).
 
-1.Clonage d'un repo Github dans Gitlab
+1. Clonage d'un repo Github dans Gitlab
 
 Gitlab propose de créer un repo en créant un clône d'un repo pré-existant sur un autre service via "Importer un projet". Il suffit de fournir l'URL du repo Github.
 
@@ -330,7 +330,7 @@ L'interface demande ensuite de remplir des champs :
 
 ![Capture des Champs demandés par Gitlab pour autoriser le clonage du projet](./images/gitlab-clonage2.png "Champs demandés par Gitlab pour autoriser le clonage du projet")
 
-2.Pousser le repo Gitlab vers Github
+2. Pousser le repo Gitlab vers Github
 
 La poussée des modifications vers le dépôt Github comprend Les branches, les étiquettes et les commits.
 
